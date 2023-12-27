@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi A4 40 TDI</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .car-details h3,
+        .car-details span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Автосалон</h1>
+        </div>
+    </header>
+
+    <nav class="vertical-menu">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="new-cars.html">Нові автомобілі</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="schedule.html">Графік роботи</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="main-section">
+            <h2>Audi A4 40 TDI</h2>
+
+            <div class="gallery" id="car2Gallery">
+                <div class="gallery-image" id="car2Image1" style="display: block;">
+                    <img src="car2_1.jpg" width="700" alt="Audi A4 40 TDI - Photo 1">
+                </div>
+                <div class="gallery-image" id="car2Image2" style="display: none;">
+                    <img src="car2_2.jpg" width="700" alt="Audi A4 40 TDI - Photo 2">
+                </div>
+             
+                <button class="arrow prev" onclick="changeImage('car2Gallery', -1)">&#10094;</button>
+                <button class="arrow next" onclick="changeImage('car2Gallery', 1)">&#10095;</button>
+            </div>
+
+            <div class="car-details">
+                <h3>Огляд Audi A4 40 TDI</h3>
+                <p>Audi A4 40 TDI - це представник престижного сімейства автомобілів Audi A4, оснащений дизельним двигуном об'ємом 2.0 літра і системою TDI. Цей седан відзначається стильним дизайном, високоякісним інтер'єром та передовими технологіями. Завдяки дизельному двигуну, автомобіль може вражати ефективністю пального та динамікою руху. Він також може володіти рядом функцій безпеки та комфорту, що робить його привабливим вибором для тих, хто цінує високий рівень якості та елегантного стилю.</p>
+                <p>Ціна: <span>$55,000</span></p>
+            </div>
+
+
+            <div class="video-container">
+                <iframe width="900" height="500" src="https://www.youtube.com/embed/6Q3-jaaG0xo?si=aDbfWK_sPm-p3Cwp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Автосалон | 
+                <a href="https://www.facebook.com/Audi.NIKO.Zakhid/" target="_blank">Facebook</a> | 
+                <a href="https://www.youtube.com/user/nikozahid" target="_blank">YouTube</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

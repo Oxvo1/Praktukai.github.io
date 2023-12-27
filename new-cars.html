@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосалон - Нові автомобілі</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Автосалон</h1>
+        </div>
+    </header>
+
+    <nav class="vertical-menu">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="new-cars.html">Нові автомобілі</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="schedule.html">Графік роботи</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="main-section">
+            <h2>Нові автомобілі</h2>
+
+            <div class="car">
+                <h3><a href="car1.html">Audi Q3 40 TFSI</a></h3>
+                <p>Audi Q3 40 TFSI - це компактний кросовер, який входить в лінійку автомобілів Audi Q3. Позначення "40 TFSI" вказує на двигун і систему приводу. У даному випадку, "40" може вказувати на рівень потужності або об'єм двигуна, а "TFSI" свідчить про використання турбованого бензинового двигуна.</p>
+                <div class="gallery" id="car1Gallery">
+                    <div class="gallery-image" id="car1Image1" style="display: block;">
+                        <img src="car1_1.avif" width="700" alt="Car 1 - Photo 1">
+                    </div>
+                    <div class="gallery-image" id="car1Image2" style="display: none;">
+                        <img src="car1_2.avif" width="700" alt="Car 1 - Photo 2">
+                    </div>
+                    <button class="arrow prev" onclick="changeImage('car1Gallery', -1)">&#10094;</button>
+                    <button class="arrow next" onclick="changeImage('car1Gallery', 1)">&#10095;</button>
+                </div>
+            </div>
+
+            <div class="car">
+                <h3><a href="car2.html">Audi A4 40 TDI</a></h3>
+                <p>Audi A4 40 TDI - це представник престижного сімейства автомобілів Audi A4, оснащений дизельним двигуном об'ємом 2.0 літра і системою TDI. Цей седан відзначається стильним дизайном, високоякісним інтер'єром та передовими технологіями. Завдяки дизельному двигуну, автомобіль може вражати ефективністю пального та динамікою руху. Він також може володіти рядом функцій безпеки та комфорту, що робить його привабливим вибором для тих, хто цінує високий рівень якості та елегантного стилю.</p>
+                <div class="gallery" id="car2Gallery">
+                    <div class="gallery-image" id="car2Image1" style="display: block;">
+                        <img src="car2_1.jpg" width="700" alt="Car 2 - Photo 1">
+                    </div>
+                    <div class="gallery-image" id="car2Image2" style="display: none;">
+                        <img src="car2_2.jpg" width="700" alt="Car 2 - Photo 2">
+                    </div>
+                    <button class="arrow prev" onclick="changeImage('car2Gallery', -1)">&#10094;</button>
+                    <button class="arrow next" onclick="changeImage('car2Gallery', 1)">&#10095;</button>
+                </div>
+            </div>
+
+            <div class="car">
+                <h3><a href="car3.html">Audi Q5 45 TFSI</a></h3>
+                <p>Audi Q5 - це середньорозмірний кросовер від німецького виробника автомобілів Audi. Модель 45 TFSI вказує на тип двигуна та його об'єм, а саме, ймовірно, бензиновий двигун об'ємом 2,0 літра. TFSI (Turbo Fuel Stratified Injection) вказує на те, що двигун використовує турбонаддув та систему прямого вприскування пального для підвищення продуктивності.</p>
+                <div class="gallery" id="car3Gallery">
+                    <div class="gallery-image" id="car3Image1" style="display: block;">
+                        <img src="car3_1.jpg" width="700" alt="Car 3 - Photo 1">
+                    </div>
+                    <div class="gallery-image" id="car3Image2" style="display: none;">
+                        <img src="car3_2.jpg" width="700" alt="Car 3 - Photo 2">
+                    </div>
+                    <button class="arrow prev" onclick="changeImage('car3Gallery', -1)">&#10094;</button>
+                    <button class="arrow next" onclick="changeImage('car3Gallery', 1)">&#10095;</button>
+                </div>
+            </div>
+
+            <div class="car">
+                <h3><a href="car4.html">Audi TT RS 2020</a></h3>
+                <p>Audi TT RS 2020 - це спортивний автомобіль. Відзначається потужним двигуном, спортивною подвійною вихлопною системою, агресивним дизайном та вражаючою динамікою. Автомобіль оснащений передовими технологіями та луксозним інтер'єром, що робить його привабливим варіантом для тих, хто цінує комбінацію стилю та високих швидкостей.</p>
+                <div class="gallery" id="car4Gallery">
+                    <div class="gallery-image" id="car4Image1" style="display: block;">
+                        <img src="car4_1.jpg" width="700" alt="Car 4 - Photo 1">
+                    </div>
+                    <div class="gallery-image" id="car4Image2" style="display: none;">
+                        <img src="car4_2.jpg" width="700" alt="Car 4 - Photo 2">
+                    </div>
+                    <button class="arrow prev" onclick="changeImage('car4Gallery', -1)">&#10094;</button>
+                    <button class="arrow next" onclick="changeImage('car4Gallery', 1)">&#10095;</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Автосалон | 
+                <a href="https://www.facebook.com/Audi.NIKO.Zakhid/" target="_blank">Facebook</a> | 
+                <a href="https://www.youtube.com/user/nikozahid" target="_blank">YouTube</a>
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

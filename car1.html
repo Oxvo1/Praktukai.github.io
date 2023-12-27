@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi Q3 40 TFSI</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .car-details h3,
+        .car-details span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Автосалон</h1>
+        </div>
+    </header>
+
+    <nav class="vertical-menu">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="new-cars.html">Нові автомобілі</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="schedule.html">Графік роботи</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="main-section">
+            <h2>Audi Q3 40 TFSI</h2>
+
+            
+            <div class="gallery" id="car1Gallery">
+                <div class="gallery-image" id="car1Image1" style="display: block;">
+                    <img src="car1_1.avif" width="700" alt="Audi Q3 40 TFSI - Photo 1">
+                </div>
+                <div class="gallery-image" id="car1Image2" style="display: none;">
+                    <img src="car1_2.avif" width="700" alt="Audi Q3 40 TFSI - Photo 2">
+                </div>
+             
+                <button class="arrow prev" onclick="changeImage('car1Gallery', -1)">&#10094;</button>
+                <button class="arrow next" onclick="changeImage('car1Gallery', 1)">&#10095;</button>
+            </div>
+
+       
+            <div class="car-details">
+                <h3>Огляд Audi Q3 40 TFSI</h3>
+                <p>Audi Q3 40 TFSI - це компактний кросовер, який входить в лінійку автомобілів Audi Q3. Позначення "40 TFSI" вказує на двигун і систему приводу. У даному випадку, "40" може вказувати на рівень потужності або об'єм двигуна, а "TFSI" свідчить про використання турбованого бензинового двигуна.</p>
+                <p>Цей кросовер вражає своїм стильним дизайном, передовими технологіями та комфортним інтер'єром. Завдяки потужному двигуну, Audi Q3 40 TFSI забезпечує ефективність руху та задоволення від водіння.</p>
+                <p>Ціна: <span>$50,000</span></p>
+            </div>
+
+            
+            <div class="video-container">
+                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/Ff8_FLwc6-4?si=uz8h0fLlOdC7IHNL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Автосалон | 
+                <a href="https://www.facebook.com/Audi.NIKO.Zakhid/" target="_blank">Facebook</a> | 
+                <a href="https://www.youtube.com/user/nikozahid" target="_blank">YouTube</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

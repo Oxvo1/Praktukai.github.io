@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi TT RS 2020</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .car-details h3,
+        .car-details span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Автосалон</h1>
+        </div>
+    </header>
+
+    <nav class="vertical-menu">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="new-cars.html">Нові автомобілі</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="schedule.html">Графік роботи</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="main-section">
+            <h2>Audi TT RS 2020</h2>
+
+
+            <div class="gallery" id="car4Gallery">
+                <div class="gallery-image" id="car4Image1" style="display: block;">
+                    <img src="car4_1.jpg" width="700" alt="Audi TT RS 2020 - Photo 1">
+                </div>
+                <div class="gallery-image" id="car4Image2" style="display: none;">
+                    <img src="car4_2.jpg" width="700" alt="Audi TT RS 2020 - Photo 2">
+                </div>
+             
+                <button class="arrow prev" onclick="changeImage('car4Gallery', -1)">&#10094;</button>
+                <button class="arrow next" onclick="changeImage('car4Gallery', 1)">&#10095;</button>
+            </div>
+
+
+            <div class="car-details">
+                <h3>Огляд Audi TT RS 2020</h3>
+                <p>Audi TT RS 2020 - це спортивний автомобіль. Відзначається потужним двигуном, спортивною подвійною вихлопною системою, агресивним дизайном та вражаючою динамікою. Автомобіль оснащений передовими технологіями та луксозним інтер'єром, що робить його привабливим варіантом для тих, хто цінує комбінацію стилю та високих швидкостей.</p>
+                <p>Ціна: <span>$80,000</span></p>
+            </div>
+
+
+            <div class="video-container">
+                <iframe width="900" height="500" src="https://www.youtube.com/embed/flPFPP9lgm8?si=BkB6eA_PFUbN9rLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Автосалон | 
+                <a href="https://www.facebook.com/Audi.NIKO.Zakhid/" target="_blank">Facebook</a> | 
+                <a href="https://www.youtube.com/user/nikozahid" target="_blank">YouTube</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
